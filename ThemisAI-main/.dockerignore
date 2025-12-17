@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.cache/
+.pytest_cache/
+
+# --- Ambiente ---
+.env
+*.sqlite3
+*.db
+
+# --- Ambientes virtuais ---
+.venv/
+venv/
+
+# --- Artefatos de build ---
+dist/
+build/
+.coverage
+htmlcov/
+
+# --- MODELOS GRANDES (CRÍTICO) ---
+models/
+
+# --- Outros ---
+*.exe
+llama.cpp/build/
